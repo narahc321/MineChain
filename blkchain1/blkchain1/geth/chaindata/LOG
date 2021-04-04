@@ -1,0 +1,18 @@
+=============== Apr 3, 2021 (IST) ===============
+18:47:42.641702 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:47:42.688011 db@open opening
+18:47:42.691899 version@stat F·[] S·0B[] Sc·[]
+18:47:42.754476 db@janitor F·2 G·0
+18:47:42.754584 db@open done T·65.938364ms
+18:47:43.108619 memdb@flush N·21264 S·2MiB
+18:47:43.236558 memdb@flush created L0@3 N·21264 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+18:47:43.236959 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+18:47:43.351083 memdb@flush committed F·1 T·242.399687ms
+18:47:43.351515 journal@remove removed @1
+18:47:43.351542 table@compaction range L-1 "a":"b"
+18:47:43.351562 table@compaction L0·1 -> L1·0 S·1MiB Q·21265
+18:47:43.400034 table@build created L1@4 N·21262 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+18:47:43.400122 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+18:47:43.447252 table@compaction committed F~ S-34B Ke·0 D·2 T·95.654619ms
+18:47:43.448393 table@remove removed @3
+18:47:43.447419 table@compaction range L-1 "o":"p"
